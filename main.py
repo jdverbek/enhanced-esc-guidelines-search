@@ -9,8 +9,8 @@ import sys
 # Add current directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-# Import and run the production application
-from main_production import app
+# Import the simplified application
+from app import app
 
 # For Render.com deployment compatibility
 application = app
